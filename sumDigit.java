@@ -36,6 +36,29 @@ public class sumDigit {
                 N = -N;
             }
             System.out.println("N is "+N);
+            // for(int i=1;N>=i;N/=10){
+            //     int rem = N%10;
+
+            //     if(rem%2==0){
+
+            //         sum_even+=N%10;
+            //         count++;
+
+            //     }else if(rem%2!=0){
+
+            //         sum_odd+=N%10;
+            //         count1++;
+            //     }
+
+            // }
+            System.out.println("sum_even is " + sum_even + " (count is) "+ count);
+            System.out.println();
+            System.out.println("sum_odd is " + sum_odd + " (count1 is) "+ count1);
+       
+
+
+
+
             for(int i=1;N>=i;N/=10){
                 int rem = N%10;
 
@@ -50,11 +73,12 @@ public class sumDigit {
                     count1++;
                 }
 
+    
             }
-            System.out.println("sum_even is " + sum_even + " (count is) "+ count);
-            System.out.println();
-            System.out.println("sum_odd is " + sum_odd + " (count1 is) "+ count1);
-       
+
+
+
+            
     }
 
 }

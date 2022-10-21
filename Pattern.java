@@ -41,20 +41,33 @@ public class Pattern {
         //     System.out.println();
         // }
 
-        // print the stair of  sum digit of star;
+        // print the stair of  even digit of star;
+
+        // for(int i=1;i<=5;i++){
+        //     for(int j=1;j<=i;j++){
+        //         if(j%2==0){
+        //             System.out.print(j+"\t");
+        //         }else{
+        //             System.out.print("*\t");
+        //         }
+                
+        //     }
+        //     System.out.println();
+        // }
+
+        // print the stair of  odd digit of star;
+
 
         for(int i=1;i<=5;i++){
             for(int j=1;j<=i;j++){
-                if(j%2==0){
+                if(j%2!=0){
                     System.out.print(j+"\t");
                 }else{
                     System.out.print("*\t");
                 }
-                
             }
             System.out.println();
         }
-
        
     }
 }

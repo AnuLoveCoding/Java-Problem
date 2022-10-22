@@ -20,12 +20,7 @@ public class switch_case {
                 break;
             case "apple" : System.out.println("Apple");
                 break;
-
-                
-        
-
-        
-            default: System.out.println("Wrong Input");
+             default: System.out.println("Wrong Input");
                 break;
         }
     }

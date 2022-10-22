@@ -8,20 +8,19 @@ public class switch_case {
         System.out.println("Enter Your Fruit Name : ");
         String fruit = scn.nextLine();
 
-        switch (fruit) {
-            case "mango": System.out.println("king of fruit");
+        switch (fruit) { //advance swirch-case use (->) not use of break;//
+            case "mango"-> System.out.println("king of fruit");
                 
-                break;
-            case "gauava" : System.out.println("Very Tasty");
-                break;
-            case "grapes" : System.out.println("very tasty fruit");
-                 break;
-            case "pine-apple" : System.out.println("pine-apple");
-                break;
-            case "apple" : System.out.println("Apple");
-                break;
-             default: System.out.println("Wrong Input");
-                break;
+            case "gauava" -> System.out.println("Very Tasty");
+                
+            case "grapes" -> System.out.println("very tasty fruit");
+                 
+            case "pine-apple" -> System.out.println("pine-apple");
+                
+            case "apple" -> System.out.println("Apple");
+                
+            default-> System.out.println("Wrong Input");
+                
         }
     }
 }

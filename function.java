@@ -1,4 +1,4 @@
-import java.util.Arrays;
+// import java.util.Arrays;
 import java.util.Scanner;
 
 public class function {
@@ -13,27 +13,49 @@ public class function {
         // change(arr);
         // System.out.println(Arrays.toString(arr));
 
-        System.out.println("Enter Your Number 1 ");
-        int a = scn.nextInt();
-        System.out.println("Enetr Your  Number 2 ");
-        int b = scn.nextInt();
-        System.out.println("Enter Your  Number 3 ");
-        int c = scn.nextInt();
+        // System.out.println("Enter Your Number 1 ");
+        // int a = scn.nextInt();
+        // System.out.println("Enetr Your  Number 2 ");
+        // int b = scn.nextInt();
+        // System.out.println("Enter Your  Number 3 ");
+        // int c = scn.nextInt();
 
         // int multiple = multiple(a, b, c);
-        System.out.println("The Multiple of numbers : "+ multiple(a,b,c));
+        // System.out.println("The Multiple of numbers : "+ multiple(a,b,c));
 
-    //    int sum =  sumDigit(a,b);
-    //    System.out.println(sum);
+        
+        //    int sum =  sumDigit(a,b);
+        //    System.out.println(sum);
+
+        System.out.println("Enter Your Number");
+        int n = scn.nextInt();
+
+        mul(n);
+
+        // System.out.println(product);
+       
         
 
     }
 
 
-    // find the product of numbres;
-    static  int multiple(int a ,int b, int c){
-        return a*b*c;
-    }
+        // find the factorial of n;
+
+        static void  mul(int n){
+            int product = 1;
+            for (int i = 1; i <= n; i++) {
+                product*=i;
+                
+            }
+            System.out.println(product);
+        }
+        
+
+        // find the product of numbres;
+        // static  int multiple(int a ,int b, int c){
+        //     return a*b*c;
+            
+    // }
 
     //  sum of two digit;
     // static int sumDigit(int a , int b){

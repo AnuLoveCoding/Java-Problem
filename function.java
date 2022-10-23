@@ -1,16 +1,30 @@
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class function {
     public static void main(String[] args) {
         // sum();
-        String name = "Anurag";
-        greet(name);
+        // String name = "Anurag";
+        // greet(name);
+
+        int[] arr = {5,2,3,5,6,4,7,8};
+        
+        change(arr);
+        System.out.println(Arrays.toString(arr));
+
 
 
     }
 
-    static void greet(String naam){
-        System.out.println(naam);
+    // static void greet(String naam){
+    //     System.out.println("Hello " + naam);
+    // }
+
+
+    static void change(int[] nums){
+        nums[0] =99;
+        nums[3] =77;
+        
     }
 
     //  Q. sum the two numbers;

@@ -20,8 +20,8 @@ public class function {
         System.out.println("Enter Your  Number 3 ");
         int c = scn.nextInt();
 
-        int multiple = multiple(a, b, c);
-        System.out.println("The Multiple of numbers : "+multiple);
+        // int multiple = multiple(a, b, c);
+        System.out.println("The Multiple of numbers : "+ multiple(a,b,c));
 
     //    int sum =  sumDigit(a,b);
     //    System.out.println(sum);
@@ -31,10 +31,8 @@ public class function {
 
 
     // find the product of numbres;
-
     static  int multiple(int a ,int b, int c){
-        int product = a*b*c;
-        return product;
+        return a*b*c;
     }
 
     //  sum of two digit;

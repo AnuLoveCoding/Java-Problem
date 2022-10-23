@@ -30,7 +30,7 @@ public class function {
         System.out.println("Enter Your Number");
         int n = scn.nextInt();
 
-        mul(n);
+       mul(n);
 
         // System.out.println(product);
        
@@ -41,7 +41,7 @@ public class function {
 
         // find the factorial of n;
 
-        static void  mul(int n){
+        static void  mul( int n){
             int product = 1;
             for (int i = 1; i <= n; i++) {
                 product*=i;

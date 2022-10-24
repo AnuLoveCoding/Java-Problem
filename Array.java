@@ -50,6 +50,11 @@ public class Array {
       System.out.println();
       System.out.println(Arrays.toString(arr)); // this statement for print array;
 
+         //   Modifier;
+          System.out.println();
+        arr[2] ="Anurag" ;
+        System.out.println(Arrays.toString(arr));
+
 
     }
 }

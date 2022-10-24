@@ -14,8 +14,17 @@ public class Array {
         // System.out.print(arr[5]+" ");
 
 
-        float [] arr = {5,4,3,2,1,5,6.5f};
+        int [] arr = new int [5];
 
-        System.out.println(arr[6]);
+        // System.out.println(arr[6]);
+        System.out.println("Enter Your Number : ");
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = scn.nextInt();
+           
+        }
+        for (int i = 0; i < arr.length; i++) {
+            System.out.print(arr[i]+"@");
+           
+        }
     }
 }

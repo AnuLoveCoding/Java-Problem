@@ -1,3 +1,5 @@
+import java.io.ObjectInputFilter.FilterInfo;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Array {
@@ -22,9 +24,20 @@ public class Array {
             arr[i] = scn.nextInt();
            
         }
-        for (int i = 0; i < arr.length; i++) {
-            System.out.print(arr[i]+"@");
+
+        System.out.println(Arrays.toString(arr));
+        // for (int i = 0; i < arr.length; i++) {
+        //     System.out.print(arr[i]+"-");
            
-        }
+        // }
+
+    //     String[] arr = new String[6];
+
+    //     // System.out.println("Enter Your Input");
+
+    //   for (int i = 0; i < arr.length; i++) {
+    //      arr[i] = scn.next();
+    //   }
+    //   System.out.println(Arrays.toString(arr));
     }
 }

@@ -89,28 +89,51 @@ public class Pattern {
         // int n =5;
         // int space
     
-        int  N = 5;
-        int space = N /2;
-        int star = 1;
+        // int  N = 5;
+        // int space = N /2;
+        // int star = 1;
 
-        for(int i=1;i<=N;i++){
+        // for(int i=1;i<=N;i++){
+        //     for(int j=1;j<=space;j++){
+        //         System.out.print("\t");
+        //     }
+        //     for(int j=1;j<=star;j++){
+        //         System.out.print("*\t");
+        //     }
+
+        //     if(i<=N/2){
+        //         space--;
+        //         star+=2;
+        //     }else{
+        //         space++;
+        //         star-=2;
+        //     }
+        //     System.out.println();
+        // }
+
+
+        int n = 3 ;
+        int star = n/2+1 ,space = 1;
+
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=star;j++){
+                System.out.print("*\t");
+            }
             for(int j=1;j<=space;j++){
                 System.out.print("\t");
             }
             for(int j=1;j<=star;j++){
                 System.out.print("*\t");
             }
-
-            if(i<=N/2){
-                space--;
-                star+=2;
+            if(i<=n/2){
+                star--;
+                space+=2;
             }else{
-                space++;
-                star-=2;
+                star++;
+                space-=2;
             }
             System.out.println();
         }
-
 
 
 

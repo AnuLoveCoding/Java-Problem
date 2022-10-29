@@ -32,17 +32,17 @@ public class function {
 
         // System.out.println(product);
        
-        factorial(5);
+       System.out.println(factorial(5)); ;
         
 
     }
         // find the factorial of n print it.
-        static void factorial(int n){
+        static int factorial(int n){
             int fact =1;
             for (int i = 1; i <= n; i++) {
                 fact*=i;
             }
-            System.out.println(fact);
+                 return fact;
         }
 
         // find the factorial of n;

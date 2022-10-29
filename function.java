@@ -27,28 +27,34 @@ public class function {
         //    int sum =  sumDigit(a,b);
         //    System.out.println(sum);
 
-        System.out.println("Enter Your Number");
-        int n = scn.nextInt();
-
-       mul(n);
+       
+     
 
         // System.out.println(product);
        
+        factorial(5);
         
 
     }
-
+        // find the factorial of n print it.
+        static void factorial(int n){
+            int fact =1;
+            for (int i = 1; i <= n; i++) {
+                fact*=i;
+            }
+            System.out.println(fact);
+        }
 
         // find the factorial of n;
 
-        static void  mul( int n){
-            int product = 1;
-            for (int i = 1; i <= n; i++) {
-                product*=i;
+        // static void  mul( int n){
+        //     int product = 1;
+        //     for (int i = 1; i <= n; i++) {
+        //         product*=i;
                 
-            }
-            System.out.println(product);
-        }
+        //     }
+        //     System.out.println(product);
+        // }
         
 
         // find the product of numbres;

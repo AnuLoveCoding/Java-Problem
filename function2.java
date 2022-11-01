@@ -3,10 +3,9 @@ import java.util.Scanner;
 public class function2 {
     
     // write a function to multiply three numbers;
-
-    static int multiply(int a, int b,int c){
-        return a*b*c;
-    }
+    //  static int multiply(int a, int b,int c){
+    //     return a*b*c;
+    // }
 
 
 
@@ -31,7 +30,11 @@ public class function2 {
 
             // sub(5,2);  to data type always only call function.
 
-            System.out.println(multiply(5, 7, 2));
+            // System.out.println(multiply(5, 7, 2));
+            // System.out.println(multiply(2,3 ,5 ));
+            // System.out.println(multiply(6,7 ,6 ));
+            // System.out.println(multiply(3,9 ,27 ));
+            // System.out.println(multiply(21,22 ,55 ));
 
 
 

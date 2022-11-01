@@ -13,6 +13,7 @@ public class nCr {
                 // n is not prime;
                 return false;
             }
+            
         }
         // System.out.println(count);
 
@@ -36,13 +37,15 @@ public class nCr {
 
 
         System.out.println("Enter Your number");
+       
         int n = scn.nextInt();
 
-        if(check_prime(n)==true){
-            System.out.println("Number is prime " + check_prime(n));
-        }else{
-            System.out.println("Number is not prime " + check_prime(n));
+        for (int i = 2; i <=n; i++) {
+            if(check_prime(i)==true){
+                System.out.println(i+" ");
+            }
         }
+        
         // System.out.println("Enter Your Number 1");
         // int n = scn.nextInt();
         

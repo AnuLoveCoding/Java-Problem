@@ -30,7 +30,8 @@ public class prime {
                 
             }
         } 
-        System.out.println();
+           
+           System.out.println();
            System.out.println(ans);
        
     }

@@ -4,6 +4,11 @@ import java.util.Scanner;
 public class function {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
+
+
+
+
+        
         // sum();
         // String name = "Anurag";
         // greet(name);
@@ -32,18 +37,18 @@ public class function {
 
         // System.out.println(product);
        
-       System.out.println(factorial(5)); ;
+    //    System.out.println(factorial(5)); 
         
 
     }
         // find the factorial of n print it.
-        static int factorial(int n){
-            int fact =1;
-            for (int i = 1; i <= n; i++) {
-                fact*=i;
-            }
-                 return fact;
-        }
+        // static int factorial(int n){
+        //     int fact =1;
+        //     for (int i = 1; i <= n; i++) {
+        //         fact*=i;
+        //     }
+        //          return fact;
+        // }
 
         // find the factorial of n;
 

@@ -1,17 +1,12 @@
- // System.out.println("Enter Your Input:");
-        // int N = scn.nextInt();
-        // for(int i=1;i<=N;i++){
-        //     int sum =0 ;
-        //     int n = i;
-        //      for(; n>=1;n/=10){
-        //         int rem = n%10;
-        //         sum =(sum*10)+rem;
-    
-        //      }
-        //      if(i==sum){
-        //         System.out.println("Yes it is :");
-        //         System.out.println(i+ " Pallindorme");
-        //      }
+ // int []arr = new int[5];
 
-             
+        // // scan values in array;
+        // for (int i = 0; i < 5; i++) {
+        //     arr[i] = scn.nextInt();
+        // }
+
+        // //print the array
+        // for (int i = 0; i < 5; i++) {
+        //     // System.out.println(arr[i]);
+        //     System.out.println("arr["+i+"]=" +arr[i]);
         // }

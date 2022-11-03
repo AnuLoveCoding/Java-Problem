@@ -32,13 +32,14 @@ public class Arrayprblm {
             arr[i] = scn.nextInt();
         }
 
-        int sum =0 ,count =0;
+        double sum =0 ,count =0;
         for (int i = 0; i < arr.length; i++) {
             sum+=arr[i];
-            count++;
+            // count++;
         }
         
-        int ans = sum/count;
+        // double ans = sum/n; 
+        double ans = (double)(sum/count);
         System.out.println(ans);
 
     }

@@ -18,7 +18,12 @@ public class Pallindrome {
                 System.out.println("Yes it is :");
                 System.out.println(i+ " Pallindorme");
              }
+
+             
         }
+
+            // Pallindrome raj = new Pallindrome();
+            //  System.out.println(raj +" reference location ");
        
     }
 }

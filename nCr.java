@@ -35,16 +35,22 @@ public class nCr {
     public static void main(String[] args) {
         Scanner scn = new Scanner(System.in);
 
-
-        System.out.println("Enter Your number");
+        /* to check nCr file location in memory */
+        nCr raj = new nCr();
+        System.out.println(raj);
+        /*  To write a formula write in abpve to find the location.*/
+        // System.out.println("Enter Your number");
        
-        int n = scn.nextInt();
+        // int n = scn.nextInt();
 
-        for (int i = 2; i <=n; i++) {
-            if(check_prime(i)==true){
-                System.out.println(i+" ");
-            }
-        }
+       
+        
+
+        // for (int i = 2; i <=n; i++) {
+        //     if(check_prime(i)==true){
+        //         System.out.println(i+" ");
+        //     }
+        // }
         
         // System.out.println("Enter Your Number 1");
         // int n = scn.nextInt();

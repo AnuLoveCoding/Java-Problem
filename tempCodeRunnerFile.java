@@ -1,10 +1,17 @@
- // for (int i = 1; i <=n-2; i++) {
-        //    System.out.print("* ");
+ // System.out.println("Enter Your Input:");
+        // int N = scn.nextInt();
+        // for(int i=1;i<=N;i++){
+        //     int sum =0 ;
+        //     int n = i;
+        //      for(; n>=1;n/=10){
+        //         int rem = n%10;
+        //         sum =(sum*10)+rem;
+    
+        //      }
+        //      if(i==sum){
+        //         System.out.println("Yes it is :");
+        //         System.out.println(i+ " Pallindorme");
+        //      }
 
-        //    for (int j = 1; j <=n-2; j++) {
-        //     System.out.print(" ");
-        //    }
-        // //    System.out.println("*");
-        //              System.out.println();
+             
         // }
-            

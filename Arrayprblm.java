@@ -5,6 +5,15 @@ public class Arrayprblm {
         Scanner scn = new Scanner(System.in);
 
 
+        int[]arr = {10,20,30};
+
+        arr = new int[3];
+
+        int ans = arr[0] * arr[1];
+
+        System.out.println(ans);
+
+
         // Arrayprblm location = new Arrayprblm();
         // System.out.println(location);
         
@@ -25,22 +34,23 @@ public class Arrayprblm {
 
 
         //find the average of numbers
-        int n = scn.nextInt();
-        int [] arr = new int[n];
+        // System.out.println("Enter Your Number");
+        // int n = scn.nextInt();
+        // int [] arr = new int[n];
 
-        for (int i = 0; i < 3; i++) {
-            arr[i] = scn.nextInt();
-        }
+        // for (int i = 0; i < 3; i++) {
+        //     arr[i] = scn.nextInt();
+        // }
 
-        double sum =0 ,count =0;
-        for (int i = 0; i < arr.length; i++) {
-            sum+=arr[i];
-            // count++;
-        }
+        // double sum =0 ,count =0;
+        // for (int i = 0; i < arr.length; i++) {
+        //     sum+=i;
+        //     // count++;
+        // }
         
-        // double ans = sum/n; 
-        double ans = (double)(sum/count);
-        System.out.println(ans);
+        // // double ans = sum/n; 
+        // double ans = (double) sum/n;
+        // System.out.println(ans);
 
     }
 }
